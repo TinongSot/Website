@@ -1,0 +1,9 @@
+prototype(Tinong.Site:Component.Layout.Default) < prototype(Neos.Fusion:Component) {
+    content = ''
+
+    renderer = afx`
+        <Tinong.Site:Component.Header />
+        {props.content}
+        <Tinong.Site:Component.Footer />
+    `
+}
